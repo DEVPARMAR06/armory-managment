@@ -1,0 +1,52 @@
+from tkinter import *
+from PIL import Image,ImageTk
+
+dev_root=Tk()
+#Gui Logic
+
+#title
+dev_root.title("DEV")
+dev_root.geometry("1000x1000")
+dev_root.maxsize(1000,1000)#set max height
+dev_root.minsize(1000,1000)#set min height
+#For Create A Label And Pack It
+#bg for background
+#fg for forground
+#padx & pady for padding
+#font for font settings
+#relief for border styling
+#anchor in pack 
+#side
+#fill - lable strach when user strech thw size
+d = Label(text="Dev Is Dev",bg="black",fg="white",padx=22,pady=22,font=("comicsansms",19,"bold"),borderwidth=5,relief=SUNKEN)
+d.pack(anchor="sw",side=BOTTOM,fill=X)
+
+#for imagelabel
+
+photo = PhotoImage(file="580b57fcd9996e24bc43c497.png")
+
+d1_label= Label(image = photo)
+#d1_label.pack()
+
+#for jpg image
+
+image = Image.open("wallpaperflare.com_wallpaper-2.jpg")
+
+photo1=ImageTk.PhotoImage(image)
+
+d2_label= Label(image = photo1)
+#d2_label.pack()
+
+#for frame
+f1=Frame(dev_root,bg="red",borderwidth=6)
+f1.pack()
+
+d3_lable=Lable(f1,text="Dev")
+d3_lable.pack()
+
+
+dev_root.mainloop()#Create A Gui Basic
+
+
+
+

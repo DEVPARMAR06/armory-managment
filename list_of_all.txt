@@ -1,0 +1,24 @@
+       GUN NAME     BRAND NAME       QUANTITY
+
+           AKM            PAK             30
+
+            M4             US             30
+
+           UMP            IND             10
+
+           MK1             US             10
+
+           MK2             US             10
+
+            M1             US             10
+
+            M3             US             10
+
+     V44-KNIFE             US              5
+
+          M249             US             10
+
+         M16A4             US             10
+
+          DIYA          INDIA              1
+

@@ -1,0 +1,6 @@
+             ID       GUN NAME     BRAND NAME       QUANTITY
+
+      19BCE164      V44-KNIFE             US              5
+
+      19BCE156            AKM            PAK             20
+
